@@ -1,0 +1,37 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.my-menu {
+
+    width: 50%;
+    margin: auto;
+    margin-top: 120px;
+    height: 200px;
+    border: 1px solid grey;
+    background-color: gold;
+    position: relative;
+    button {
+        width: 100px;
+        padding: 10px 0;
+       
+        background-color: blueviolet;
+        border: none;
+        color: #fff;
+        font-weight: 700;
+        position: relative;
+    }
+
+    p {
+        position: absolute;
+        top: 80px;
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+
+}
